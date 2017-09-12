@@ -6,6 +6,14 @@
       <link rel="stylesheet" href="css/style.css">
 </head>
 
+<script type="text/javascript"
+        src="js/script.js">
+</script>
+<script type="text/javascript"
+        src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>
+
+
 <body>
   <h1>Upload an image</h1>
 
@@ -13,14 +21,15 @@
   <canvas id = "canvas"
         class = "canvasclass">
   </canvas>
-
-<div class="labelclass"
-  <p>Filename:</p>
 </div>
 
-  <input type="text"
-         class="inputclass"
-         id="fileinput">
+<div class="imageselect">
+
+  <input type="file"
+         class="fileselect"
+         name="Image"
+         id="fileselect"
+         accept="image/*">
 
   <input type="button"
          class="buttonclass"
@@ -29,7 +38,6 @@
          onclick="upload()">
 </div>
 
-<script src="js/index.js"></script>
 
 </body>
 </html>

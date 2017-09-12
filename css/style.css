@@ -1,43 +1,35 @@
-
+h1 {
+  font-family: sans-serif;
+}
 
 .canvasclass {
     width: 200px;
-    height: 140px;
     background-color: blue;
     border-style: ridge;
 }
 
-.labelclass {
-  background-color: white;
-  height: 40px;
-  position: absolute;
-  left: 20px;
-  top: 240px;
-  font-family: sans-serif;
-  font-size: large;
-  vertical-align: middle;
+.imageselect {
+  position: float;
+  width: 90%;
 }
 
-.inputclass {
-  background-color: white;
-  width: 160px;
-  height: 40px;
+.fileselect {
+  background-color: #E0E0E0;
+  width: 50%;
+  height: 30px;
   padding-left: 8px;
-  position: absolute;
-  left: 110px;
-  top: 240px;
+  position: relative;
   font-family: sans-serif;
-  font-size: large;
+  font-size: medium;
   box-shadow: 2px 2px dimgrey;
+  ac
 }
 
 .buttonclass {
   background-color: grey;
   width: 100px;
-  height: 46px;
-  position: absolute;
-  left: 300px;
-  top: 240px;
+  height: 24px;
+  position: relative;
   font-family: sans-serif;
   font-size: large;
   border-radius: 8px;
